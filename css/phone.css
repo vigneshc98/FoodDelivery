@@ -1,0 +1,89 @@
+/* __________Navigation__________ */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: .6rem;
+    padding: 0em 1em;
+}
+#navbar #logo{
+    margin: 0rem 0rem;
+ }
+#navbar div #img{
+   height: 2rem;
+   border-radius: 17em;
+   width: 2em;
+}
+
+/* ___________Section home__________ */
+#home{
+    height: 25rem;
+}
+#home::before{
+    height: 25rem;
+}
+#home p{
+    font-size: .5rem;
+}
+#home h1{
+    margin-bottom: .4rem;
+}
+
+/* ____________Section Services____________ */
+#services{
+    flex-direction: column;
+}
+#services-container #services .box p{
+    font-family: 'Bree Serif', serif; 
+    font-size: 0.9rem;
+    opacity: .7;
+}
+
+/* _________Section Clients____________*/
+/* #clients{
+    flex-wrap: wrap;
+} */
+#clients img{
+    height: 2.3rem;         /*this code stoped from  overflow*/
+}
+
+#clients .client-item{
+    padding: .5rem;
+}
+
+/* __________________section Contact_________________ */
+/* #contact-box form{
+    width: 60vw;
+} */
+#contact #contact-box #submit{
+    background-color: rgb(116, 194, 116);
+    width: 22vw;
+}
+#contact #contact-box input,
+#contact #contact-box textarea{
+    border: 1px solid black;
+}
+
+
+/* ______footer____________ */
+footer{
+    font-size: .7rem;
+    padding: .4rem;
+}
+
+
+
+/* ________utility classes _________*/
+.h-primary{
+    font-size: 1rem;
+}
+.h-secondary{
+    font-size: 1rem;
+    padding: 0rem ;
+}
+.btn{
+    font-size: .6rem;
+    padding: .1rem;
+    margin: 1rem;
+    border-radius: .3rem;
+}
